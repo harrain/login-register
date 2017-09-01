@@ -1,0 +1,11 @@
+<resources>
+    <style name="AppTheme" parent="AppCompatTheme">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- dialog -->
+    <style name="CommonDialog" parent="Base.Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@drawable/smssdk_dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <include android:id="@+id/titlebar"
+        layout="@layout/scanner_toolbar"/>
+
+    <EditText
+        android:id="@+id/pwd_et"
+        android:layout_marginTop="80dp"
+        android:hint="填写登录密码"
+        android:layout_below="@id/titlebar"
+        android:background="@drawable/smssdk_edittext_bg_selector"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:text="完成"
+        android:background="@drawable/smssdk_btn_enable"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/pwd_et"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
